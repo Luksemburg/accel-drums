@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Screen">
+    <item
+        android:id="@+id/min"
+        android:orderInCategory="100"
+        android:title="Minimal"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/symphonic"
+        android:orderInCategory="101"
+        android:title="Symphonic"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/rock"
+        android:orderInCategory="102"
+        android:title="Rock"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/folk"
+        android:orderInCategory="103"
+        android:title="Folk"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/advanced"
+        android:orderInCategory="104"
+        android:title="Automatic Drum"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="105"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/devs"
+        android:orderInCategory="106"
+        android:title="Devs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/accel"
+        android:orderInCategory="107"
+        android:title="Accel Mode"
+        app:showAsAction="never" />
+</menu>

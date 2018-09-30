@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SensorTestActivity">
+    <item
+        android:id="@+id/minimal"
+        android:orderInCategory="100"
+        android:title="Minimal"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/spain"
+        android:orderInCategory="101"
+        android:title="Spain + Bongo"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ambient"
+        android:orderInCategory="102"
+        android:title="Ambient"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="103"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/devs"
+        android:orderInCategory="104"
+        android:title="Devs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/auto"
+        android:orderInCategory="105"
+        android:title="Automatic Drum"
+        app:showAsAction="never"/>
+</menu>
